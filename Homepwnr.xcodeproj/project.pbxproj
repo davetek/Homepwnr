@@ -12,6 +12,7 @@
 		21642C951D359E7700082D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21642C931D359E7700082D8C /* Main.storyboard */; };
 		21642C971D359E7700082D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21642C961D359E7700082D8C /* Assets.xcassets */; };
 		21642C9A1D359E7700082D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21642C981D359E7700082D8C /* LaunchScreen.storyboard */; };
+		21642CA21D359EC800082D8C /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21642CA11D359EC800082D8C /* ItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		21642C961D359E7700082D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21642C991D359E7700082D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21642C9B1D359E7700082D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21642CA11D359EC800082D8C /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				21642C8F1D359E7700082D8C /* AppDelegate.swift */,
+				21642CA11D359EC800082D8C /* ItemsViewController.swift */,
 				21642C911D359E7700082D8C /* ViewController.swift */,
 				21642C931D359E7700082D8C /* Main.storyboard */,
 				21642C961D359E7700082D8C /* Assets.xcassets */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					21642C8B1D359E7700082D8C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 73REF5W5RY;
 					};
 				};
 			};
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21642C921D359E7700082D8C /* ViewController.swift in Sources */,
+				21642CA21D359EC800082D8C /* ItemsViewController.swift in Sources */,
 				21642C901D359E7700082D8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Homepwnr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.focusedconcepts.Homepwnr;
@@ -260,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Homepwnr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.focusedconcepts.Homepwnr;
