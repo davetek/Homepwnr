@@ -11,9 +11,11 @@ import UIKit
 class ItemStore {
     var allItems = [Item]()
     
-    init() {
-        for _ in 0..<5 {
-            createItem()
+    init(random: Bool = true) {
+        if random {
+            for _ in 0..<5 {
+                createItem()
+            }
         }
     }
     

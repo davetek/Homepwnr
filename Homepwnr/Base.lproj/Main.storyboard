@@ -8,7 +8,7 @@
         <!--Items View Controller-->
         <scene sceneID="9R7-bC-SPX">
             <objects>
-                <tableViewController id="BHc-5f-tdL" customClass="itemsViewController" customModule="Homepwnr" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="BHc-5f-tdL" customClass="ItemsViewController" customModule="Homepwnr" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="DMx-Cj-ha1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
