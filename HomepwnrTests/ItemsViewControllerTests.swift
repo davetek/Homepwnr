@@ -48,7 +48,7 @@ class ItemsViewControllerTests: XCTestCase {
         
         let numberOfRows = viewController.tableView(viewController.tableView, numberOfRowsInSection: 0)
         
-        XCTAssertEqual(numberOfRows, 1)
+        XCTAssertEqual(numberOfRows, 0)
         
     }
 

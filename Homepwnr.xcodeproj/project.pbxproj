@@ -394,6 +394,7 @@
 				215AB3A21D3ABBF2009D0A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21642C871D359E7700082D8C /* Build configuration list for PBXProject "Homepwnr" */ = {
 			isa = XCConfigurationList;

@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Homepwnr.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "215AB3981D3ABBF1009D0A82"
+               BuildableName = "HomepwnrTests.xctest"
+               BlueprintName = "HomepwnrTests"
+               ReferencedContainer = "container:Homepwnr.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -28,16 +42,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "215AB3871D3AAF31009D0A82"
-               BuildableName = "HomepwnrTests.xctest"
-               BlueprintName = "HomepwnrTests"
-               ReferencedContainer = "container:Homepwnr.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
